@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  MarketPlace
+
+  Created by mac on 2023/7/25.
+  
+*/
+
+"Home"="Trang chủ";
+"QR Code"="QR Code";
+"Transfer"="Chuyển tiền";
+"Payment"="Thanh toán";
+"More"="Thêm";
+
+
+"Good afternoon"="Chào buổi chiều";
+"Available balance"="Số dư khả dụng";
+"point"="điểm";
+"ACB Rewards"="ACB Rewards";
+"Bank services"="Dịch vụ ngân hàng";
+"Overview"="Tổng quan tài chính";
+"Accounts"="Tài khoản";
+"Savings"="Tiết kiệm";
+"Loans"="Vay";
+"Cards"="Thẻ";
+"Insurance services"="Dịch vụ bảo hiểm";
+"ACB x Sun Life"="ACB x Sun Life";
+"Making lives brighter"="Chọn mỗi ngày tươi sáng";
+"Other services"="Dịch vụ khác";
+"Financial package of Vietnamese family"="Gói tài chính Gia Đình việt";
+"Promotions for the whole family"="Ưu đãi dành cho cả gia đình";
+
+"Current account(s)"="Tài khoản thanh toán";
+"Total balance"="Tổng số dư";
+"HISTORY"="LỊCH SỬ";
+"TKTT FIRST KHTN (CN) VND"="TKTT FIRST KHTN (CN) VND";
+"Available balance"="Số dư khả dụng";
+"Current balance: "="Số dư thực: ";
+"Transfer"="Chuyển tiền";
+"Saving"="Tiết kiệm";
+"Payment"="Thanh toán";
+"Cash"="Rút tiền";
+"Recent transaction(s)"="Lịch sử giao dịch";
+"View all"="Xem tất cả";
+"Receiver name:"="Người nhận:";
+
+
+"Transaction history"="Lịch sử giao dịch";
+"Completed"="Đã thực hiện";
+"Pending"="Chờ xử lý";
+"Scheduled"="Đặt lịch";
+"Last 20 transactions"="Danh sách 20 giao dịch gần nhất";
+
+
+

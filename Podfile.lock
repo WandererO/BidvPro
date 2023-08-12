@@ -1,0 +1,126 @@
+PODS:
+  - Alamofire (5.6.4)
+  - AttributedString (3.3.5)
+  - EmptyDataSet-Swift (5.0.0)
+  - ESTabBarController-swift (2.8.0)
+  - HandyJSON (5.0.2)
+  - HSStockChart (1.3.0)
+  - HWPanModal (0.8.9)
+  - IQKeyboardManagerSwift (6.5.11)
+  - JXPageControl (0.1.5):
+    - JXPageControl/Common (= 0.1.5)
+    - JXPageControl/Jump (= 0.1.5)
+    - JXPageControl/Transform (= 0.1.5)
+  - JXPageControl/Common (0.1.5)
+  - JXPageControl/Jump (0.1.5):
+    - JXPageControl/Common
+  - JXPageControl/Transform (0.1.5):
+    - JXPageControl/Common
+  - JXPagingView/Paging (2.1.2)
+  - JXPhotoBrowser (3.1.3)
+  - JXSegmentedView (1.3.0)
+  - LookinServer (1.1.5):
+    - LookinServer/Core (= 1.1.5)
+  - LookinServer/Core (1.1.5)
+  - MJRefresh (3.7.5)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - PinLayout (1.10.3)
+  - Queuer (2.1.1)
+  - Reachability (3.2)
+  - RollingNotice-Swift (1.1.0)
+  - SnapKit (5.6.0)
+  - Starscream (4.0.4)
+  - SVProgressHUD (2.2.5)
+  - swiftScan (1.2.1)
+  - SwiftyJSON (5.0.1)
+  - SwiftyRSA (1.7.0):
+    - SwiftyRSA/ObjC (= 1.7.0)
+  - SwiftyRSA/ObjC (1.7.0)
+
+DEPENDENCIES:
+  - AttributedString
+  - EmptyDataSet-Swift
+  - ESTabBarController-swift
+  - HandyJSON
+  - HSStockChart
+  - HWPanModal (= 0.8.9)
+  - IQKeyboardManagerSwift
+  - JXPageControl
+  - JXPagingView/Paging
+  - JXPhotoBrowser (~> 3.0)
+  - JXSegmentedView
+  - LookinServer
+  - MJRefresh
+  - Moya
+  - PinLayout
+  - Queuer
+  - Reachability
+  - RollingNotice-Swift
+  - SnapKit
+  - Starscream
+  - SVProgressHUD
+  - swiftScan
+  - SwiftyJSON
+  - SwiftyRSA
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AttributedString
+    - EmptyDataSet-Swift
+    - ESTabBarController-swift
+    - HandyJSON
+    - HSStockChart
+    - HWPanModal
+    - IQKeyboardManagerSwift
+    - JXPageControl
+    - JXPagingView
+    - JXPhotoBrowser
+    - JXSegmentedView
+    - LookinServer
+    - MJRefresh
+    - Moya
+    - PinLayout
+    - Queuer
+    - Reachability
+    - RollingNotice-Swift
+    - SnapKit
+    - Starscream
+    - SVProgressHUD
+    - swiftScan
+    - SwiftyJSON
+    - SwiftyRSA
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AttributedString: 6d2d9d65310119556c3b5c6e4ea8d1ca339b703c
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  HSStockChart: 2c6e0e3bcb2e5a345bf62c18d955bbc231d2f466
+  HWPanModal: 259f6916c706b3f63003a325ad1bdfbe913b0fdc
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  JXPageControl: e9487b39e2e58fc17790833214f3b8e935bef98b
+  JXPagingView: 90924b364a2ff7e94db534fad1fa50925ff69ee4
+  JXPhotoBrowser: d32e94e1226d43bf5ed83164e3f5b651fed625e0
+  JXSegmentedView: fec0d335355b6e019c494fe2e030bde8a36d2df6
+  LookinServer: 2893f2bae53cbf3fd49bbe1a8ea1745582ef1317
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  PinLayout: 0090ccbf29ae69af6ae5a15eaeaf27ed7b2c4d83
+  Queuer: 65c5f6b821417bc62da23d63d570ec9d22bee4de
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RollingNotice-Swift: 4a56cba5ea69eff0b0ee0829028e63a0229347ae
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  swiftScan: 0849e7d7c1c641384767a573ee8cb90b88d1ddd9
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwiftyRSA: 8c6dd1ea7db1b8dc4fb517a202f88bb1354bc2c6
+
+PODFILE CHECKSUM: b44ad1f7f03ffb458f2e19d57c2eb75576c9fecb
+
+COCOAPODS: 1.11.3

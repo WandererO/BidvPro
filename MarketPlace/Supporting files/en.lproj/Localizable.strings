@@ -1,0 +1,50 @@
+/* 
+  Localizable.strings
+  MarketPlace
+
+  Created by mac on 2023/7/25.
+  
+*/
+"Home"="Home";
+"QR Code"="QR Code";
+"Transfer"="Transfer";
+"Payment"="Payment";
+"More"="More";
+
+
+"Good afternoon"="Good afternoon";
+"Available balance"="Available balance";
+"ACB Rewards"="ACB Rewards";
+"point"="point";
+"Bank services"="Bank services";
+"Overview"="Overview";
+"Accounts"="Accounts";
+"Savings"="Savings";
+"Loans"="Loans";
+"Cards"="Cards";
+"Insurance services"="Insurance services";
+"ACB x Sun Life"="ACB x Sun Life";
+"Making lives brighter"="Making lives brighter";
+"Other services"="Other services";
+"Financial package of Vietnamese family"="Financial package of Vietnamese family";
+"Promotions for the whole family"="Promotions for the whole family";
+
+"Current account(s)"="Current account(s)";
+"Total balance"="Total balance";
+"HISTORY"="HISTORY";
+"TKTT FIRST KHTN (CN) VND"="TKTT FIRST KHTN (CN) VND";
+"Available balance"="Available balance";
+"Current balance: "="Current balance: ";
+"Transfer"="Transfer";
+"Saving"="Saving";
+"Payment"="Payment";
+"Cash"="Cash";
+"Recent transaction(s)"="Recent transaction(s)";
+"View all"="View all";
+"Receiver name:"="Receiver name:";
+
+"Transaction history"="Transaction history";
+"Completed"="Completed";
+"Pending"="Pending";
+"Scheduled"="Scheduled";
+"Last 20 transactions"="Last 20 transactions";

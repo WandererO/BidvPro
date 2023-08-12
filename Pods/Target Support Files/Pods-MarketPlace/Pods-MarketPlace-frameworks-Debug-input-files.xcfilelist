@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-MarketPlace/Pods-MarketPlace-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/Zendesk/ZendeskSDK.framework/ZendeskSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKConversationKit/ZendeskSDKConversationKit.framework/ZendeskSDKConversationKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKCoreUtilities/ZendeskSDKCoreUtilities.framework/ZendeskSDKCoreUtilities
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKFayeClient/ZendeskSDKFayeClient.framework/ZendeskSDKFayeClient
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKHTTPClient/ZendeskSDKHTTPClient.framework/ZendeskSDKHTTPClient
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKLogger/ZendeskSDKLogger.framework/ZendeskSDKLogger
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKMessaging/ZendeskSDKMessaging.framework/ZendeskSDKMessaging
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKSocketClient/ZendeskSDKSocketClient.framework/ZendeskSDKSocketClient
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKStorage/ZendeskSDKStorage.framework/ZendeskSDKStorage
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ZendeskSDKUIComponents/ZendeskSDKUIComponents.framework/ZendeskSDKUIComponents

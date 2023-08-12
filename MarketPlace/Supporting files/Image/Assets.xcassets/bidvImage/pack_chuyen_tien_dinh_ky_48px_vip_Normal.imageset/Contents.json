@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "pack_chuyen_tien_dinh_ky_48px_vip_Normal.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "pack_chuyen_tien_dinh_ky_48px_vip_Normal@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "pack_chuyen_tien_dinh_ky_48px_vip_Normal@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "touchIdTrans_32px_vip_Normal.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "touchIdTrans_32px_vip_Normal@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "touchIdTrans_32px_vip_Normal@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
