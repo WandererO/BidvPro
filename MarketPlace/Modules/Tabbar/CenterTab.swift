@@ -79,7 +79,7 @@ class CenterTab: UITabBar {
     
     //恢复选中状态
     public func nomilImageType(){
-        transImage.image = UIImage(named: "transfer_inactive")
+        transImage.image = UIImage(named: "ic_scan_Normal")
         transLable.textColor = UIColor.hexColor("999999")//RGBCOLOR(r: 86, g: 86, b: 86)
     }
     
@@ -87,7 +87,7 @@ class CenterTab: UITabBar {
          
         
         //设置图片选中状态
-        transImage.image = UIImage(named: "transfer_active")
+        transImage.image = UIImage(named: "ic_scan_Normal")
         transLable.textColor = HightLightColor
         if (addDelegate != nil) {
                addDelegate?.addButtonClickCall()
@@ -109,11 +109,11 @@ class CenterTab: UITabBar {
         addView.addSubview(imgBg)
         
         //添加一张图
-        transImage.image = UIImage(named: "transfer_inactive")
+        transImage.image = UIImage(named: "ic_scan_Normal")
 //        transImage.IB_cornerRadius = 20
         transImage.backgroundColor = .clear
         
-        transLable.text = "Transfer".localString()
+        transLable.text = "Scan QR".localString()
         transLable.font = FONT_M(size: 10)
         transLable.textColor = UIColor.hexColor("999999")//RGBCOLOR(r: 86, g: 86, b: 86)
         transLable.numberOfLines = 2
@@ -168,7 +168,7 @@ class CenterTab: UITabBar {
         imgBg.snp.makeConstraints { make in
             make.centerX.equalTo(addView)
             make.width.height.equalTo(50)
-            make.top.equalTo(addView.snp.top).offset(-10)
+            make.top.equalTo(addView.snp.top).offset(-6)
         }
         
         transLable.snp.makeConstraints { make in
@@ -180,8 +180,8 @@ class CenterTab: UITabBar {
         imgBg.addSubview(transImage)
         transImage.snp.makeConstraints { make in
             make.centerX.equalTo(addView)
-            make.width.height.equalTo(30)
-            make.top.equalToSuperview().offset(10)
+            make.width.height.equalTo(48)
+            make.top.equalToSuperview().offset(2)
         }
      
         publishButton.snp.makeConstraints { make in

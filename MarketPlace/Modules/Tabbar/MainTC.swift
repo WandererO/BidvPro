@@ -32,7 +32,7 @@ class MainTC: UITabBarController,CenterTabDelegate {
  
         let tabBarAppearance = UITabBarAppearance()
         tabBarAppearance.shadowColor = UIColor.clear
-        tabBarAppearance.backgroundImage = UIImage(named: "bottom-bar-bg")
+        tabBarAppearance.backgroundImage = UIImage(named: "ic_bottom_bar_Normal")
         tabBarAppearance.backgroundImageContentMode = .scaleAspectFill
         tabBarAppearance.backgroundColor =  RGBCOLOR(r: 246, g: 247, b: 250)
         tabBarAppearance.backgroundEffect = nil
@@ -48,27 +48,27 @@ class MainTC: UITabBarController,CenterTabDelegate {
  
     /// 设置子控制器
     public func setChildVCs() {
-   
+   //cardbottom_Normal  Group 15227_Normal ic_bottom_bar_Normal  ic_footer_reward_selected_Normal ic_footer_setting_selected_vip_Normal ic_scan_Normal icoFooterHome_selected_Normal  ic_footer_notify_Normal
    
         centerTabar.addDelegate = self
         self.setValue(centerTabar, forKey: "tabBar")
   
         let nav0 = getChildController(title:"Home".localString(),
-                                      childVC: homeVC, selectedImageName: "account_active", normalImageName: "account_inactive")
+                                      childVC: homeVC, selectedImageName: "icoFooterHome_selected_Normal", normalImageName: "icoFooterHome_Normal")
  
-        let nav1 = getChildController(title:"QR Code".localString(),
-                                      childVC: QRVC, selectedImageName: "Scan_QR_inactive", normalImageName: "Scan_QR_inactive")
+        let nav1 = getChildController(title:"Rewards".localString(),
+                                      childVC: QRVC, selectedImageName: "ic_footer_reward_selected_Normal", normalImageName: "ic_footer_reward_selected_Normal")
          
         //中间
         let centerNav = getChildController(title:"",
                                       childVC: transferVC, selectedImageName: "", normalImageName: "")
         
         
-        let nav2 = getChildController(title:"Payment".localString(),
-                                      childVC: paymentVC, selectedImageName: "payment_active", normalImageName: "payment_inactive")
+        let nav2 = getChildController(title:"Notify".localString(),
+                                      childVC: paymentVC, selectedImageName: "ic_footer_notify_selected_Normal", normalImageName: "ic_footer_notify_Normal")
          
-        let nav3 = getChildController(title:"More".localString(),
-                                      childVC: moreVC, selectedImageName: "more_active", normalImageName: "more_inactive")
+        let nav3 = getChildController(title:"Settings".localString(),
+                                      childVC: moreVC, selectedImageName: "ic_footer_setting_selected_vip_Normal", normalImageName: "ic_footer_setting_Normal")
       
         
         setViewControllers([nav0, nav1, centerNav,nav2, nav3], animated: false)
@@ -98,7 +98,7 @@ class MainTC: UITabBarController,CenterTabDelegate {
 //        childVC.tabBarItem.
         if #available(iOS 13.0, *) {
             self.tabBar.tintColor = HightLightColor
-            self.tabBar.unselectedItemTintColor = RGBCOLOR(r: 86, g: 86, b: 86)
+            self.tabBar.unselectedItemTintColor = .red//RGBCOLOR(r: 86, g: 86, b: 86)
         } else {
 //            childVC.tabBarItem.setTitleTextAttributes([.foregroundColor:HightLightColor,.font:UIFont.systemFont(ofSize: 8)], for: .selected)
 //            childVC.tabBarItem.setTitleTextAttributes([.foregroundColor:RGBCOLOR(r: 86, g: 86, b: 86),.font:UIFont.systemFont(ofSize: 8)], for: .normal)
@@ -107,7 +107,8 @@ class MainTC: UITabBarController,CenterTabDelegate {
         let selectedImage = UIImage(named: selectedImageName)?.withRenderingMode(.alwaysOriginal)
         childVC.tabBarItem.selectedImage = selectedImage
         
-        let normalImage = UIImage(named: normalImageName)?.withRenderingMode(.alwaysOriginal)
+        let normalImage = UIImage(named: normalImageName)?.withRenderingMode(.alwaysTemplate)
+        normalImage?.withTintColor(.red)
         childVC.tabBarItem.image = normalImage
         
         let nav = BaseNavigationController(rootViewController: childVC)

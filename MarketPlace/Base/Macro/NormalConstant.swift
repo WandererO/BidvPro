@@ -136,7 +136,7 @@ let kWechatColor : UIColor = .hexColor("#2EBD85")
 
 let kInputTextColor : UIColor = RGBCOLOR(r: 132, g: 188, b: 57)
 
-let HightLightColor : UIColor = RGBCOLOR(r: 40, g: 114, b: 246)
+let HightLightColor : UIColor = RGBCOLOR(r: 84, g: 188, b: 174)
 
 
 let kBtnGreyBackgrondColor : UIColor = .hexColor("#F5F5F5")

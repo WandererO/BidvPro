@@ -10,8 +10,6 @@ import IQKeyboardManagerSwift
 //import FirebaseCore
 //import FirebaseAnalytics
 
-import ZendeskSDK
-import ZendeskSDKMessaging
 import ESTabBarController_swift
 
 @main

@@ -40,21 +40,6 @@ extension CCHomeViewController{
     
     func setUI(){
         
-        let navView = MPHomeNavigationView()
-        view.addSubview(navView)
-        navView.snp.makeConstraints { make in
-            make.top.left.right.equalToSuperview()
-            make.height.equalTo(100)
-        }
-        
-        let contentView = MPHomeContentView()
-        view.addSubview(contentView)
-        contentView.snp.makeConstraints { make in
-            make.left.right.bottom.equalToSuperview()
-            make.top.equalTo(navView.snp.bottom)
-        }
-        
-        
     }
     
     
