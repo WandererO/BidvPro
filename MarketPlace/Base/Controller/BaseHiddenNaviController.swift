@@ -25,6 +25,8 @@ class BaseHiddenNaviController: BaseViewController {
     let topViewRightBtn = ZQButton()
     let topRightTwoBtn = ZQButton()
     
+    let lineView = UIView()
+    
     var backgroundImage:UIImage? {
         didSet{
             self.headerBackgroundImage.isHidden = false
@@ -160,6 +162,12 @@ class BaseHiddenNaviController: BaseViewController {
             make.left.top.right.bottom.equalToSuperview()
         }
         
+        headerView.addSubview(lineView)
+        lineView.backgroundColor = RGBCOLOR(r: 248, g: 248, b: 248)
+        lineView.snp.makeConstraints { make in
+            make.left.right.bottom.equalToSuperview()
+            make.height.equalTo(1)
+        }
        
         topView.snp.makeConstraints { make in
             
@@ -170,7 +178,7 @@ class BaseHiddenNaviController: BaseViewController {
 
         titleLab.removeFromSuperview()
         titleLab.textColor = kBlackTextColor
-        titleLab.font = FONT_R(size: 18)
+        titleLab.font = FONT_MSB(size: 18)
         titleLab.textAlignment = .center
         topView.addSubview(titleLab)
         titleLab.snp.makeConstraints { make in
@@ -186,7 +194,7 @@ class BaseHiddenNaviController: BaseViewController {
             make.centerY.equalToSuperview().offset(-5)
         }
 
-        topViewLeftBtn.setImage(UIImage(named: "ic_arrow_back_16"), for: .normal)
+        topViewLeftBtn.setImage(UIImage(named: "btn_back_Normal"), for: .normal)
         topView.addSubview(topViewLeftBtn)
         topViewLeftBtn.snp.makeConstraints { make in
             

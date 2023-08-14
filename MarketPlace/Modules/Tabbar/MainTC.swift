@@ -15,7 +15,7 @@ class MainTC: UITabBarController,CenterTabDelegate {
     let centerTabar = CenterTab()
     
     let homeVC = CCHomeViewController()
-    let QRVC = MPQRCodeController()
+    let QRVC = MPAccountsController()
     let paymentVC = MPPaymentController()
     let moreVC = MPMoreViewController()
 
@@ -32,9 +32,9 @@ class MainTC: UITabBarController,CenterTabDelegate {
  
         let tabBarAppearance = UITabBarAppearance()
         tabBarAppearance.shadowColor = UIColor.clear
-        tabBarAppearance.backgroundImage = UIImage(named: "ic_bottom_bar_Normal")
+        tabBarAppearance.backgroundImage = UIImage(named: "cardbottom_Normal")
         tabBarAppearance.backgroundImageContentMode = .scaleAspectFill
-        tabBarAppearance.backgroundColor =  RGBCOLOR(r: 246, g: 247, b: 250)
+         tabBarAppearance.backgroundColor =  .clear//RGBCOLOR(r: 246, g: 247, b: 250)
         tabBarAppearance.backgroundEffect = nil
         tabBar.standardAppearance = tabBarAppearance
         if #available(iOS 15.0, *) {

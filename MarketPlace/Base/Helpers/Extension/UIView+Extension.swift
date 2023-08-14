@@ -196,8 +196,8 @@ extension UIView {
     
     //设置渐变色背景
     func setGradMainColor(size:CGSize = .zero){
-        let leftColor = RGBCOLOR(r: 89, g: 160, b: 59)
-        let rightColor =   RGBCOLOR(r: 18, g: 122, b: 40)
+        let leftColor = RGBCOLOR(r: 85, g: 162, b: 226)
+        let rightColor =   RGBCOLOR(r: 55, g: 108, b: 169)
          
         var viewSize = size
         

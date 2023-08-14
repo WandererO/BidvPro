@@ -582,33 +582,57 @@ class ImageButton : UIButton{
         setUI()
     }
 }
-//@IBDesignable extension UIView {
-//    @IBInspectable var borderColor: UIColor? {
-//        set {
-//            layer.borderColor = newValue?.cgColor
-//        }
-//        get {
-//            guard let color = layer.borderColor else {
-//                return nil
-//            }
-//            return UIColor(cgColor: color)
-//        }
-//    }
-//    @IBInspectable var borderWidth: CGFloat {
-//        set {
-//            layer.borderWidth = newValue
-//        }
-//        get {
-//            return layer.borderWidth
-//        }
-//    }
-//    @IBInspectable var cornerRadius: CGFloat {
-//        set {
-//            layer.cornerRadius = newValue
-//            clipsToBounds = newValue > 0
-//        }
-//        get {
-//            return layer.cornerRadius
-//        }
-//    }
-//}
+
+class GXImageTitleButton : UIButton {
+    
+    var title : String = "" {
+        didSet{
+            titleLab.text = title
+        }
+    }
+    
+    var image : UIImage? {
+        didSet{
+            imageV.image = image
+        }
+    }
+    var titleFont : UIFont? {didSet{titleLab.font = titleFont!}}
+    var titleColor : UIColor = kBlackTextColor { didSet{  titleLab.textColor = titleColor}}
+    var imageWidth : CGFloat = 0 {
+        didSet{
+            updataUI()
+        }
+    }
+    
+    
+    let titleLab = UILabel()
+    let imageV = UIImageView()
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        self.addSubview(imageV)
+        imageV.snp.makeConstraints { make in
+            make.right.equalTo(-3)
+            make.centerY.equalToSuperview()
+            make.width.height.equalTo(24)
+        }
+        
+        self.addSubview(titleLab)
+        titleLab.snp.makeConstraints { make in
+            make.right.equalTo(imageV.snp.left).offset(-3)
+            make.centerY.equalToSuperview()
+        }
+    }
+    
+    func updataUI() {
+        imageV.snp.remakeConstraints { make in
+            make.right.equalTo(-3)
+            make.centerY.equalToSuperview()
+            make.width.height.equalTo(imageWidth)
+        }
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}

@@ -31,9 +31,9 @@ class CenterTab: UITabBar {
        
         let tabBarAppearance = UITabBarAppearance()
         tabBarAppearance.shadowColor = UIColor.clear
-        tabBarAppearance.backgroundImage = UIImage(named: "bottom-bar-bg")
+        tabBarAppearance.backgroundImage = UIImage(named: "ic_bottom_bar_Normal")
         tabBarAppearance.backgroundImageContentMode = .scaleAspectFill
-        tabBarAppearance.backgroundColor = RGBCOLOR(r: 246, g: 247, b: 250)
+        tabBarAppearance.backgroundColor = .white//RGBCOLOR(r: 246, g: 247, b: 250)
         tabBarAppearance.backgroundEffect = nil
         self.standardAppearance = tabBarAppearance
         
@@ -168,7 +168,7 @@ class CenterTab: UITabBar {
         imgBg.snp.makeConstraints { make in
             make.centerX.equalTo(addView)
             make.width.height.equalTo(50)
-            make.top.equalTo(addView.snp.top).offset(-6)
+            make.top.equalTo(addView.snp.top).offset(-11)
         }
         
         transLable.snp.makeConstraints { make in
