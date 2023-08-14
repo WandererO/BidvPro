@@ -32,21 +32,17 @@
 	</dict>
 	<key>UIAppFonts</key>
 	<array>
-		<string>acb-icon-font.ttf</string>
-		<string>FontAwesome5_Solid.ttf</string>
-		<string>FontAwesome5_Regular.ttf</string>
-		<string>FontAwesome5_Brands.ttf</string>
-		<string>Zocial.ttf</string>
-		<string>SimpleLineIcons.ttf</string>
-		<string>Octicons.ttf</string>
-		<string>MaterialIcons.ttf</string>
-		<string>MaterialCommunityIcons.ttf</string>
-		<string>Foundation.ttf</string>
-		<string>FontAwesome.ttf</string>
-		<string>Feather.ttf</string>
-		<string>EvilIcons.ttf</string>
-		<string>Entypo.ttf</string>
-		<string>iconfont.ttf</string>
+		<string>Muli-Italic.ttf</string>
+		<string>Muli-LightItalic.ttf</string>
+		<string>Muli-Medium.ttf</string>
+		<string>Muli-MediumItalic.ttf</string>
+		<string>Muli-Semi-BoldItalic.ttf</string>
+		<string>Muli-ExtraBold.ttf</string>
+		<string>Muli-Light.ttf</string>
+		<string>Muli-BoldItalic.ttf</string>
+		<string>Muli-Bold.ttf</string>
+		<string>Muli-Regular.ttf</string>
+		<string>Muli-SemiBold.ttf</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>

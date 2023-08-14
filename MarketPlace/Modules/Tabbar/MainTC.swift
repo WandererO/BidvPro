@@ -95,13 +95,12 @@ class MainTC: UITabBarController,CenterTabDelegate {
         childVC.title = title
         childVC.tabBarItem.title = title
         childVC.tabBarItem.imageInsets = UIEdgeInsets(top: 10, left: 0, bottom: 0, right: 0)
-//        childVC.tabBarItem.
         if #available(iOS 13.0, *) {
             self.tabBar.tintColor = HightLightColor
-            self.tabBar.unselectedItemTintColor = .red//RGBCOLOR(r: 86, g: 86, b: 86)
+            self.tabBar.unselectedItemTintColor = RGBCOLOR(r: 86, g: 86, b: 86)
         } else {
 //            childVC.tabBarItem.setTitleTextAttributes([.foregroundColor:HightLightColor,.font:UIFont.systemFont(ofSize: 8)], for: .selected)
-//            childVC.tabBarItem.setTitleTextAttributes([.foregroundColor:RGBCOLOR(r: 86, g: 86, b: 86),.font:UIFont.systemFont(ofSize: 8)], for: .normal)
+//            childVC.tabBarItem.setTitleTextAttributes([.foregroundColor:RGBCOLOR(r: 86, g: 86, b: 86), .font:FONT_Cus(size: 8)], for: .normal)
         }
       
         let selectedImage = UIImage(named: selectedImageName)?.withRenderingMode(.alwaysOriginal)
@@ -115,6 +114,10 @@ class MainTC: UITabBarController,CenterTabDelegate {
         return nav
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+//        self.tabBarItem.setTitleTextAttributes([.foregroundColor:UIColor.red, .font:FONT_Cus(size: 50)], for: .normal)
+    }
 }
 
  

@@ -194,13 +194,13 @@ func FONT_G(size: CGFloat) -> (UIFont){
     return UIFont(name: "Grantha Sangam MN", size: size)!
 }
 
-func FONT_Cus(size: CGFloat) -> (UIFont){
-//    let font = UIFont(name: "Grantha Sangam MN", size: size)
-    return UIFont(name: "HelveticaNeue-Bold", size: size)!
+///细体
+func FONT_MG(size: CGFloat) -> (UIFont){
+    return UIFont(name: "Muli-Regular", size: size)!
 }
-func FONT_HN(size: CGFloat) -> (UIFont){
-//    let font = UIFont(name: "Grantha Sangam MN", size: size)
-    return UIFont(name: "HelveticaNeue", size: size)!
+///粗体
+func FONT_MSB(size: CGFloat) -> (UIFont){
+    return UIFont(name: "Muli-SemiBold", size: size)!
 }
 
 
