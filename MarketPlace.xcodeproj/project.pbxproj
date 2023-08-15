@@ -1543,7 +1543,7 @@
 				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarketPlace/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ACB ONE";
+				INFOPLIST_KEY_CFBundleDisplayName = SmartBankinng;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "face ID";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "本地网络";
@@ -1583,13 +1583,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = MarketPlace/MarketPlace.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U7FR69QKAU;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MarketPlace/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "ACB ONE";
+				INFOPLIST_KEY_CFBundleDisplayName = SmartBankinng;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "face ID";
 				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "本地网络";
