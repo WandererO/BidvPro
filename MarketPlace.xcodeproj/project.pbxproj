@@ -115,8 +115,6 @@
 		98AFF7FB280EC6E70035387C /* NetWorkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AFF7FA280EC6E70035387C /* NetWorkModel.swift */; };
 		98B074D52811386A007B7015 /* NetWorkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B074D42811386A007B7015 /* NetWorkApi.swift */; };
 		A9554F5628C3C22700D1CBA4 /* UIlabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9554F5528C3C22700D1CBA4 /* UIlabel+Extension.swift */; };
-		C21335362A8B5D990000C43D /* MKHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21335342A8B5D990000C43D /* MKHomeViewController.swift */; };
-		C21335372A8B5D990000C43D /* MKHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21335352A8B5D990000C43D /* MKHomeViewController.xib */; };
 		C213353A2A8B5FDA0000C43D /* MPHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21335382A8B5FD90000C43D /* MPHomeCell.swift */; };
 		C213353B2A8B5FDA0000C43D /* MPHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21335392A8B5FD90000C43D /* MPHomeCell.xib */; };
 		C213353E2A8B603F0000C43D /* MPHomeSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C213353C2A8B603F0000C43D /* MPHomeSectionView.xib */; };
@@ -127,6 +125,7 @@
 		C21335472A8B63700000C43D /* MPTableVIewHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21335462A8B63700000C43D /* MPTableVIewHeadView.xib */; };
 		C2B0F3692A81E87B001278EF /* MainTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B0F3672A81E87B001278EF /* MainTC.swift */; };
 		C2B0F36A2A81E87B001278EF /* CenterTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B0F3682A81E87B001278EF /* CenterTab.swift */; };
+		C2C6A0CB2A8B787300A09C45 /* UIButton+Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C6A0CA2A8B787300A09C45 /* UIButton+Extend.swift */; };
 		C2E75A332A67E355005A0BF5 /* NSObject+Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E75A322A67E355005A0BF5 /* NSObject+Extend.swift */; };
 		C2E75A352A681962005A0BF5 /* UIViewController+Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E75A342A681962005A0BF5 /* UIViewController+Extend.swift */; };
 		C2EF818D2A6A52BB00432A2B /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF818C2A6A52BB00432A2B /* CommonUtil.swift */; };
@@ -298,8 +297,6 @@
 		98AFF7FA280EC6E70035387C /* NetWorkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkModel.swift; sourceTree = "<group>"; };
 		98B074D42811386A007B7015 /* NetWorkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkApi.swift; sourceTree = "<group>"; };
 		A9554F5528C3C22700D1CBA4 /* UIlabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIlabel+Extension.swift"; sourceTree = "<group>"; };
-		C21335342A8B5D990000C43D /* MKHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKHomeViewController.swift; sourceTree = "<group>"; };
-		C21335352A8B5D990000C43D /* MKHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MKHomeViewController.xib; sourceTree = "<group>"; };
 		C21335382A8B5FD90000C43D /* MPHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPHomeCell.swift; sourceTree = "<group>"; };
 		C21335392A8B5FD90000C43D /* MPHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPHomeCell.xib; sourceTree = "<group>"; };
 		C213353C2A8B603F0000C43D /* MPHomeSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPHomeSectionView.xib; sourceTree = "<group>"; };
@@ -310,6 +307,7 @@
 		C21335462A8B63700000C43D /* MPTableVIewHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPTableVIewHeadView.xib; sourceTree = "<group>"; };
 		C2B0F3672A81E87B001278EF /* MainTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTC.swift; sourceTree = "<group>"; };
 		C2B0F3682A81E87B001278EF /* CenterTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterTab.swift; sourceTree = "<group>"; };
+		C2C6A0CA2A8B787300A09C45 /* UIButton+Extend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extend.swift"; sourceTree = "<group>"; };
 		C2E75A322A67E355005A0BF5 /* NSObject+Extend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extend.swift"; sourceTree = "<group>"; };
 		C2E75A342A681962005A0BF5 /* UIViewController+Extend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extend.swift"; sourceTree = "<group>"; };
 		C2EF818C2A6A52BB00432A2B /* CommonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
@@ -789,8 +787,6 @@
 				0476887D2A8B419A002BA50D /* MPAccountsController.swift */,
 				0476887C2A8B4199002BA50D /* MPAccountsController.xib */,
 				587317E32850F75C00D5F867 /* CCHomeViewController.swift */,
-				C21335342A8B5D990000C43D /* MKHomeViewController.swift */,
-				C21335352A8B5D990000C43D /* MKHomeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -886,6 +882,7 @@
 		98AFF7DE280EA0960035387C /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C2C6A0CA2A8B787300A09C45 /* UIButton+Extend.swift */,
 				C2F5E3062A682D120076747F /* Cell+QS.swift */,
 				C2E75A322A67E355005A0BF5 /* NSObject+Extend.swift */,
 				988F8616282BAAA9008D9EED /* Date+Category.swift */,
@@ -1191,7 +1188,6 @@
 				0477652029C952300069B4F3 /* MPBottomSheetCell.xib in Resources */,
 				0476887E2A8B419A002BA50D /* MPAccountsController.xib in Resources */,
 				2260931B299F4BE400B284DB /* demo_index.html in Resources */,
-				C21335372A8B5D990000C43D /* MKHomeViewController.xib in Resources */,
 				98AFF794280E979F0035387C /* Main.storyboard in Resources */,
 				2260931A299F4BE400B284DB /* demo.css in Resources */,
 				22609320299F4BE400B284DB /* iconfont.json in Resources */,
@@ -1330,6 +1326,7 @@
 				C21335452A8B63690000C43D /* MPTableVIewHeadView.swift in Sources */,
 				F79F08CA28252A8100B9777F /* CacheDataManager.swift in Sources */,
 				0448050729CB23200064ADD7 /* EWPopMenu.swift in Sources */,
+				C2C6A0CB2A8B787300A09C45 /* UIButton+Extend.swift in Sources */,
 				962CFFC5287A9700001D6A0D /* CCLoginModel.swift in Sources */,
 				F798E9F82829242A00C26CF6 /* HudManager.swift in Sources */,
 				983A1F5D28324B240098FD78 /* Float+Extension.swift in Sources */,
@@ -1343,7 +1340,6 @@
 				9880B463281A667300508DB7 /* TipsExtensions.swift in Sources */,
 				F7BF0990284454B0001AA9CF /* BaseTabBarController.swift in Sources */,
 				C2B0F3692A81E87B001278EF /* MainTC.swift in Sources */,
-				C21335362A8B5D990000C43D /* MKHomeViewController.swift in Sources */,
 				989923DB2848618200390D57 /* HSWindowAdapter.swift in Sources */,
 				F77F9C8E281146A6005BEEDF /* BaseViewController.swift in Sources */,
 				585D0DC728561E1A00993291 /* FSPagerView.swift in Sources */,

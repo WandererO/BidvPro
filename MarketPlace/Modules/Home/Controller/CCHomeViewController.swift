@@ -17,20 +17,20 @@ class CCHomeViewController : BaseHiddenNaviController{
     
     let dataSource = [
         
-        [["text":"Smart Kids".localString(),"img":"home_transferin_ic_Normal"],
+        [["text":"Smart Kids".localString(),"img":"icSmartKids_Normal"],
          ["text":"Elite account opening".localString(),"img":"home_transferfast_ic_Normal"],
-         ["text":"Taxi booking".localString(),"img":"icTransfermoneyInternational_Normal"],
+         ["text":"Taxi booking".localString(),"img":"ic48PxMainGoiTaxi_Normal"],
          ["text":"Interbank transfer to account".localString(),"img":"home_transferout_ic_Normal"],
          ["text":"Topup".localString(),"img":"home_transferreceivevcb_ic_Normal"],
          ["text":"Open Online savings".localString(),"img":"home_gift_ic_Normal"],
-         ["text":"Deposit on online cumulative accou...".localString(),"img":"home_statusmoneyoder_ic_Normal"],
+         ["text":"Deposit on online cumulative accou...".localString(),"img":"icMainThanhToanGuiTichLuyOnline_Normal"],
          ["text":"Ouick loan/Quick card".localString(),"img":"home_vnpost_ic_Normal"],
          ["text":"BSMS re...".localString(),"img":"home_vnpost_ic_Normal"]],
                        
                        
                        [["text":"Electricity bill","img":"home_electricitybills_ic_Normal"],
                         ["text":"Water bill","img":"home_water_ic_Normal"],
-                        ["text":"Telecom bill","img":"ic_bill_extend_card_Normal"],
+                        ["text":"Telecom bill","img":"icMainVienThongHome_Normal"],
                         ["text":"Cable TV bill","img":"home_adslinternetfee_ic_Normal"],
                         ["text":"Securities","img":"home_hospitalbill_ic_Normal"],
                         ["text":"View more","img":"home_schoolfee_ic_Normal"]
@@ -180,6 +180,9 @@ extension CCHomeViewController : UITableViewDataSource , UITableViewDelegate{
                           "Payment services".localString(),
                           "Shopping".localString()]
         setionView.titleName.text = titleArray[section]
+        
+        setionView.rightBtn.isHidden = section > 0
+        
         return setionView
     }
      

@@ -24,6 +24,11 @@ class MPTableVIewHeadView: UIView {
                          opacity: 1,
                          radius: 20)
         
+        
+        currentButton.setTitle("233189398278", for: .normal)
+        
+        currentButton.setupImagePosition(.right ,padding: 5)
+        
     }
     //返回导航栏高度就可以 xib 默认 100px
     @IBOutlet weak var topNavHeight: NSLayoutConstraint!
@@ -47,6 +52,18 @@ class MPTableVIewHeadView: UIView {
     
     //默认 xib 250
     @IBOutlet weak var bottomViewHeight: NSLayoutConstraint!
+    
+    
+    @IBOutlet weak var currentButton: UIButton!
+    //账号点击
+    @IBAction func currentLableButton(_ sender: Any) {
+        
+        
+        PLog("账号点击")
+        
+        
+    }
+    
     
     @IBAction func searchACtion(_ sender: Any) {
         
