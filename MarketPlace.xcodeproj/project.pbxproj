@@ -115,6 +115,16 @@
 		98AFF7FB280EC6E70035387C /* NetWorkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AFF7FA280EC6E70035387C /* NetWorkModel.swift */; };
 		98B074D52811386A007B7015 /* NetWorkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B074D42811386A007B7015 /* NetWorkApi.swift */; };
 		A9554F5628C3C22700D1CBA4 /* UIlabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9554F5528C3C22700D1CBA4 /* UIlabel+Extension.swift */; };
+		C21335362A8B5D990000C43D /* MKHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21335342A8B5D990000C43D /* MKHomeViewController.swift */; };
+		C21335372A8B5D990000C43D /* MKHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21335352A8B5D990000C43D /* MKHomeViewController.xib */; };
+		C213353A2A8B5FDA0000C43D /* MPHomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21335382A8B5FD90000C43D /* MPHomeCell.swift */; };
+		C213353B2A8B5FDA0000C43D /* MPHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21335392A8B5FD90000C43D /* MPHomeCell.xib */; };
+		C213353E2A8B603F0000C43D /* MPHomeSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C213353C2A8B603F0000C43D /* MPHomeSectionView.xib */; };
+		C213353F2A8B603F0000C43D /* MPHomeSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C213353D2A8B603F0000C43D /* MPHomeSectionView.swift */; };
+		C21335422A8B628D0000C43D /* MPHomeSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21335402A8B628C0000C43D /* MPHomeSectionCell.swift */; };
+		C21335432A8B628D0000C43D /* MPHomeSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21335412A8B628C0000C43D /* MPHomeSectionCell.xib */; };
+		C21335452A8B63690000C43D /* MPTableVIewHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21335442A8B63690000C43D /* MPTableVIewHeadView.swift */; };
+		C21335472A8B63700000C43D /* MPTableVIewHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21335462A8B63700000C43D /* MPTableVIewHeadView.xib */; };
 		C2B0F3692A81E87B001278EF /* MainTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B0F3672A81E87B001278EF /* MainTC.swift */; };
 		C2B0F36A2A81E87B001278EF /* CenterTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B0F3682A81E87B001278EF /* CenterTab.swift */; };
 		C2E75A332A67E355005A0BF5 /* NSObject+Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E75A322A67E355005A0BF5 /* NSObject+Extend.swift */; };
@@ -288,6 +298,16 @@
 		98AFF7FA280EC6E70035387C /* NetWorkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkModel.swift; sourceTree = "<group>"; };
 		98B074D42811386A007B7015 /* NetWorkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkApi.swift; sourceTree = "<group>"; };
 		A9554F5528C3C22700D1CBA4 /* UIlabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIlabel+Extension.swift"; sourceTree = "<group>"; };
+		C21335342A8B5D990000C43D /* MKHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKHomeViewController.swift; sourceTree = "<group>"; };
+		C21335352A8B5D990000C43D /* MKHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MKHomeViewController.xib; sourceTree = "<group>"; };
+		C21335382A8B5FD90000C43D /* MPHomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPHomeCell.swift; sourceTree = "<group>"; };
+		C21335392A8B5FD90000C43D /* MPHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPHomeCell.xib; sourceTree = "<group>"; };
+		C213353C2A8B603F0000C43D /* MPHomeSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPHomeSectionView.xib; sourceTree = "<group>"; };
+		C213353D2A8B603F0000C43D /* MPHomeSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPHomeSectionView.swift; sourceTree = "<group>"; };
+		C21335402A8B628C0000C43D /* MPHomeSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPHomeSectionCell.swift; sourceTree = "<group>"; };
+		C21335412A8B628C0000C43D /* MPHomeSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPHomeSectionCell.xib; sourceTree = "<group>"; };
+		C21335442A8B63690000C43D /* MPTableVIewHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPTableVIewHeadView.swift; sourceTree = "<group>"; };
+		C21335462A8B63700000C43D /* MPTableVIewHeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MPTableVIewHeadView.xib; sourceTree = "<group>"; };
 		C2B0F3672A81E87B001278EF /* MainTC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTC.swift; sourceTree = "<group>"; };
 		C2B0F3682A81E87B001278EF /* CenterTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterTab.swift; sourceTree = "<group>"; };
 		C2E75A322A67E355005A0BF5 /* NSObject+Extend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extend.swift"; sourceTree = "<group>"; };
@@ -691,7 +711,15 @@
 		587317F3285260CA00D5F867 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C21335382A8B5FD90000C43D /* MPHomeCell.swift */,
+				C21335392A8B5FD90000C43D /* MPHomeCell.xib */,
 				047688802A8B41A2002BA50D /* MPAccountsView.swift */,
+				C213353D2A8B603F0000C43D /* MPHomeSectionView.swift */,
+				C213353C2A8B603F0000C43D /* MPHomeSectionView.xib */,
+				C21335402A8B628C0000C43D /* MPHomeSectionCell.swift */,
+				C21335412A8B628C0000C43D /* MPHomeSectionCell.xib */,
+				C21335442A8B63690000C43D /* MPTableVIewHeadView.swift */,
+				C21335462A8B63700000C43D /* MPTableVIewHeadView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -761,6 +789,8 @@
 				0476887D2A8B419A002BA50D /* MPAccountsController.swift */,
 				0476887C2A8B4199002BA50D /* MPAccountsController.xib */,
 				587317E32850F75C00D5F867 /* CCHomeViewController.swift */,
+				C21335342A8B5D990000C43D /* MKHomeViewController.swift */,
+				C21335352A8B5D990000C43D /* MKHomeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1144,6 +1174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2260931D299F4BE400B284DB /* iconfont.ttf in Resources */,
+				C213353E2A8B603F0000C43D /* MPHomeSectionView.xib in Resources */,
 				22609321299F4BE400B284DB /* iconfont.woff2 in Resources */,
 				98AFF799280E97A10035387C /* LaunchScreen.storyboard in Resources */,
 				049CC8D82A5BFC4600C12E44 /* LXQRCode.bundle in Resources */,
@@ -1151,6 +1182,7 @@
 				2260931C299F4BE400B284DB /* iconfont.js in Resources */,
 				220F5BE12A21D4AE000C02BD /* Color.xcassets in Resources */,
 				22DDAEF02A35E41B00A1FF3C /* MPCollectionSelectCell.xib in Resources */,
+				C21335432A8B628D0000C43D /* MPHomeSectionCell.xib in Resources */,
 				0438E2752A7CE1BE00B1A309 /* MPMoreViewController.xib in Resources */,
 				229912262A2CDF98006CDDFA /* MPBaseCell.xib in Resources */,
 				2260931E299F4BE400B284DB /* iconfont.css in Resources */,
@@ -1159,10 +1191,13 @@
 				0477652029C952300069B4F3 /* MPBottomSheetCell.xib in Resources */,
 				0476887E2A8B419A002BA50D /* MPAccountsController.xib in Resources */,
 				2260931B299F4BE400B284DB /* demo_index.html in Resources */,
+				C21335372A8B5D990000C43D /* MKHomeViewController.xib in Resources */,
 				98AFF794280E979F0035387C /* Main.storyboard in Resources */,
 				2260931A299F4BE400B284DB /* demo.css in Resources */,
 				22609320299F4BE400B284DB /* iconfont.json in Resources */,
 				0438E2792A7CE2A900B1A309 /* MPLoginController.xib in Resources */,
+				C213353B2A8B5FDA0000C43D /* MPHomeCell.xib in Resources */,
+				C21335472A8B63700000C43D /* MPTableVIewHeadView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1292,6 +1327,7 @@
 				22DDAEEF2A35E41B00A1FF3C /* MPCollectionSelectCell.swift in Sources */,
 				049CC8DE2A5BFE5D00C12E44 /* LXFit.swift in Sources */,
 				98A7DC1B2819626000D9989C /* QRcode.swift in Sources */,
+				C21335452A8B63690000C43D /* MPTableVIewHeadView.swift in Sources */,
 				F79F08CA28252A8100B9777F /* CacheDataManager.swift in Sources */,
 				0448050729CB23200064ADD7 /* EWPopMenu.swift in Sources */,
 				962CFFC5287A9700001D6A0D /* CCLoginModel.swift in Sources */,
@@ -1301,11 +1337,13 @@
 				C2E75A352A681962005A0BF5 /* UIViewController+Extend.swift in Sources */,
 				0438E2742A7CE1BE00B1A309 /* MPMoreViewController.swift in Sources */,
 				0477651729C950330069B4F3 /* NBBottomSheetPresentationController.swift in Sources */,
+				C213353F2A8B603F0000C43D /* MPHomeSectionView.swift in Sources */,
 				F78EF184281BC527001BC933 /* BaseScrollView.swift in Sources */,
 				047FB87829AF6AC000B652F5 /* InputViews.swift in Sources */,
 				9880B463281A667300508DB7 /* TipsExtensions.swift in Sources */,
 				F7BF0990284454B0001AA9CF /* BaseTabBarController.swift in Sources */,
 				C2B0F3692A81E87B001278EF /* MainTC.swift in Sources */,
+				C21335362A8B5D990000C43D /* MKHomeViewController.swift in Sources */,
 				989923DB2848618200390D57 /* HSWindowAdapter.swift in Sources */,
 				F77F9C8E281146A6005BEEDF /* BaseViewController.swift in Sources */,
 				585D0DC728561E1A00993291 /* FSPagerView.swift in Sources */,
@@ -1313,6 +1351,7 @@
 				049CC8D72A5BFC4600C12E44 /* LXQRCode.swift in Sources */,
 				C2F5E3072A682D120076747F /* Cell+QS.swift in Sources */,
 				F798E9F42828EB1B00C26CF6 /* UIButton+Extension.swift in Sources */,
+				C213353A2A8B5FDA0000C43D /* MPHomeCell.swift in Sources */,
 				585D0DC828561E1A00993291 /* FSPageViewTransformer.swift in Sources */,
 				049CC8DB2A5BFC4600C12E44 /* LXQRCodeConst.swift in Sources */,
 				585D0DCA28561E1A00993291 /* FSPagerViewLayoutAttributes.swift in Sources */,
@@ -1320,6 +1359,7 @@
 				229912252A2CDF98006CDDFA /* MPBaseCell.swift in Sources */,
 				962CFFC9287AB4B9001D6A0D /* CCHomeViewModel.swift in Sources */,
 				0476887F2A8B419A002BA50D /* MPAccountsController.swift in Sources */,
+				C21335422A8B628D0000C43D /* MPHomeSectionCell.swift in Sources */,
 				2248075329F0D7FB00226026 /* StackView+Extension.swift in Sources */,
 				F79CD565283F64640069F4E9 /* UIScrollView+MJExt.swift in Sources */,
 				98B074D52811386A007B7015 /* NetWorkApi.swift in Sources */,

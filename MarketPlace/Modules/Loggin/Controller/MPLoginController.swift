@@ -18,6 +18,9 @@ class MPLoginController: BaseHiddenNaviController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.headerView.isHidden = true
+        
+        accountField.text = "1008688"
+        psswdField.text = "123456"
         // Do any additional setup after loading the view.
     }
 
