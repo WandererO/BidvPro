@@ -36,9 +36,6 @@ public enum ESTabBarItemContentMode : Int {
 open class ESTabBarItemContentView: UIView {
     
     // MARK: - PROPERTY SETTING
-    
-    ///是否中间特殊
-    open var isMiddleSpec = false
 
     /// 设置contentView的偏移
     open var insets = UIEdgeInsets.zero
@@ -250,18 +247,10 @@ open class ESTabBarItemContentView: UIView {
                                                    y: h - titleLabel.bounds.size.height - 1.0,
                                                    width: titleLabel.bounds.size.width,
                                                    height: titleLabel.bounds.size.height)
-                    if isMiddleSpec == true {
-                        imageView.frame = CGRect.init(x: (w - s) / 2.0,
-                                                      y: (h - s) / 2.0 - 6.0,
-                                                      width: 50,
-                                                      height: 50)
-                    }else{
-                        imageView.frame = CGRect.init(x: (w - s) / 2.0,
-                                                      y: (h - s) / 2.0 - 6.0,
-                                                      width: s,
-                                                      height: s)
-                    }
-                    
+                    imageView.frame = CGRect.init(x: (w - s) / 2.0,
+                                                  y: (h - s) / 2.0 - 6.0,
+                                                  width: s,
+                                                  height: s)
                 }
             } else if !imageView.isHidden {
                 imageView.frame = CGRect.init(x: (w - s) / 2.0,

@@ -196,11 +196,11 @@ func FONT_G(size: CGFloat) -> (UIFont){
 
 ///细体
 func FONT_MG(size: CGFloat) -> (UIFont){
-    return UIFont(name: "Muli-Regular", size: size)!
+    return UIFont(name: "Muli-Regular", size: size) ?? UIFont.systemFont(ofSize: size)
 }
 ///粗体
 func FONT_MSB(size: CGFloat) -> (UIFont){
-    return UIFont(name: "Muli-SemiBold", size: size)!
+    return UIFont(name: "Muli-SemiBold", size: size) ?? UIFont.systemFont(ofSize: size)
 }
 
 

@@ -228,19 +228,19 @@ class BaseTabbarMiddleItemView:ESTabBarItemContentView {
 
 //        self.imageView.layer.cornerRadius = 35
 //        self.imageView.size = CGSize(width: 200, height: 200)
-        self.isMiddleSpec = true
-        self.insets = UIEdgeInsets.init(top: -32, left: 0, bottom: 0, right: 0)
-        self.superview?.bringSubviewToFront(self)
-
-        titleLabel.numberOfLines = 2
-        
-        textColor = RGBCOLOR(r: 86, g: 86, b: 86)
-        highlightTextColor = HightLightColor
-        iconColor = RGBCOLOR(r: 157, g: 165, b: 176)
-        highlightIconColor = HightLightColor
-        
-        backdropColor = .clear
-        highlightBackdropColor = .clear
+//        self.isMiddleSpec = true
+//        self.insets = UIEdgeInsets.init(top: -32, left: 0, bottom: 0, right: 0)
+//        self.superview?.bringSubviewToFront(self)
+//
+//        titleLabel.numberOfLines = 2
+//
+//        textColor = RGBCOLOR(r: 86, g: 86, b: 86)
+//        highlightTextColor = HightLightColor
+//        iconColor = RGBCOLOR(r: 157, g: 165, b: 176)
+//        highlightIconColor = HightLightColor
+//
+//        backdropColor = .clear
+//        highlightBackdropColor = .clear
     }
     
     required init?(coder aDecoder: NSCoder) {
