@@ -18,32 +18,32 @@ class CCHomeViewController : BaseHiddenNaviController{
     let dataSource = [
         
         [["text":"Smart Kids".localString(),"img":"icSmartKids_Normal"],
-         ["text":"Elite account opening".localString(),"img":"home_transferfast_ic_Normal"],
+         ["text":"Elite account opening".localString(),"img":"icTaiKhoanDinhDanh_Normal"],
          ["text":"Taxi booking".localString(),"img":"ic48PxMainGoiTaxi_Normal"],
-         ["text":"Interbank transfer to account".localString(),"img":"home_transferout_ic_Normal"],
-         ["text":"Topup".localString(),"img":"home_transferreceivevcb_ic_Normal"],
-         ["text":"Open Online savings".localString(),"img":"home_gift_ic_Normal"],
-         ["text":"Deposit on online cumulative accou...".localString(),"img":"icMainThanhToanGuiTichLuyOnline_Normal"],
-         ["text":"Ouick loan/Quick card".localString(),"img":"home_vnpost_ic_Normal"],
-         ["text":"BSMS re...".localString(),"img":"home_vnpost_ic_Normal"]],
+         ["text":"Interbank transfer to account".localString(),"img":"pack_chuyen_tien_48px_Normal"],
+         ["text":"Topup".localString(),"img":"pack_naptiendt_48px_Normal"],
+         ["text":"Open Online savings".localString(),"img":"pack_tiet_kiem_48px_Normal"],
+         ["text":"Deposit on online cumulative accounts".localString(),"img":"icMainThanhToanGuiTichLuyOnline_Normal"],
+         ["text":"Ouick loan/Quick card".localString(),"img":"pack_tien_vay_48px_Normal"],
+         ["text":"BSMS registration".localString(),"img":"pack_ott_48px_Normal"]],
                        
                        
-                       [["text":"Electricity bill","img":"home_electricitybills_ic_Normal"],
-                        ["text":"Water bill","img":"home_water_ic_Normal"],
+                       [["text":"Electricity bill","img":"icTienDienHome_Normal"],
+                        ["text":"Water bill","img":"icTienNuocHome_Normal"],
                         ["text":"Telecom bill","img":"icMainVienThongHome_Normal"],
-                        ["text":"Cable TV bill","img":"home_adslinternetfee_ic_Normal"],
-                        ["text":"Securities","img":"home_hospitalbill_ic_Normal"],
-                        ["text":"View more","img":"home_schoolfee_ic_Normal"]
+                        ["text":"Cable TV bill","img":"icTruyenHinhHome_Normal"],
+                        ["text":"Securities","img":"icNapTienChungKhoanHome_Normal"],
+                        ["text":"View more","img":"icXemThemHome_Normal"]
                       ],
                         
                        
                        
-                        [["text":"Taxi","img":"home_topup_ic_Normal"],
-                         ["text":"Airline ticket","img":"home_electronictopup_ic_Normal"],
-                         ["text":"Book bus ticket","img":"home_topupagent_ic_Normal"],
-                         ["text":"VnShop","img":"home_vetctopup_ic_Normal"],
-                         ["text":"Book train ticket","img":"home_autovetctopup_ic_Normal"],
-                         ["text":"View more","img":"home_autovetctopup_ic_Normal"]],
+                        [["text":"Taxi","img":"ic48PxMainGoiTaxi_Normal"],
+                         ["text":"Airline ticket","img":"icoRewardVemaybay_Normal"],
+                         ["text":"Book bus ticket","img":"packSDKVeXe_Normal"],
+                         ["text":"VnShop","img":"packSDKVNSHOP_Normal"],
+                         ["text":"Book train ticket","img":"packSDKVeTau_Normal"],
+                         ["text":"View more","img":"pack_ott_48px_Normal"]],
                          
                       
                         

@@ -27,7 +27,7 @@ class MPTableVIewHeadView: UIView {
         
         currentButton.setTitle("233189398278", for: .normal)
         
-        currentButton.setupImagePosition(.right ,padding: 5)
+        currentButton.setupImagePosition(.right ,padding: 3)
         
     }
     //返回导航栏高度就可以 xib 默认 100px
@@ -58,12 +58,13 @@ class MPTableVIewHeadView: UIView {
     //账号点击
     @IBAction func currentLableButton(_ sender: Any) {
         
-        
         PLog("账号点击")
-        
-        
     }
     
+    @IBAction func listClick(_ sender: Any) {
+        let vc = MPAccountsController()
+        self.viewContainingController()?.navigationController?.pushViewController(vc, animated: true)
+    }
     
     @IBAction func searchACtion(_ sender: Any) {
         
